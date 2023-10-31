@@ -44,6 +44,8 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const testimonialToShow = [testimonials[1]]; // Mantenha apenas o primeiro depoimento
+
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
@@ -55,7 +57,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
+        {testimonialToShow.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>

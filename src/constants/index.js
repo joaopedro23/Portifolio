@@ -115,56 +115,52 @@ const technologies = [
 ];
 
 const experiences = [
+  
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Sistema Finaceiro Simples",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de um sistema financeiro com React.js e tecnologias associadas.",
+"Colaboração com equipes multidisciplinares, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
+"Implementação de design responsivo e garantia de compatibilidade entre navegadores.",
+"Participação em revisões de código e fornecimento de feedback construtivo a outros desenvolvedores.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "API-com-nodeJS",
+    company_name: "API",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento de uma API com Node.js, Prisma como ORM e SQLite como banco de dados, como único desenvolvedor.",
+"Implementação de serviços e garantia de compatibilidade com vários clientes.",
+"Participação em revisões de código e autocrítica para aprimoramento constante.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Portifolio 3d",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Ago 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvendo e mantendo aplicações web usando React.js e outras tecnologias relacionadas.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Participando de revisões de código e recebendo feedback construtivo a outros desenvolvedores."
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Web-Cooked-app",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Web-Cooked-app foi um projeto colaborativo entre mim e um amigo, onde desenvolvemos uma aplicação web usando React para o front-end e Node.js para o back-end. Neste projeto conjunto, trabalhamos juntos para criar uma aplicação de receitas, utilizando nossas habilidades em programação para implementar uma interface amigável e responsiva. Durante o desenvolvimento, colaboramos de perto em equipe, incorporando feedback construtivo um do outro para garantir a alta qualidade do produto final. Esta experiência nos proporcionou valiosas oportunidades de aprendizado e fortaleceu nossas habilidades em tecnologias modernas de desenvolvimento web.",
     ],
   },
 ];
@@ -184,7 +180,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/60.jpg",
   },
   {
     testimonial:
@@ -197,6 +193,7 @@ const testimonials = [
 ];
 
 const projects = [
+  // trabalha aqui agora //
   {
     name: "Car Rent",
     description:
